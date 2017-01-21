@@ -1,0 +1,30 @@
+{
+  "name": "si-ptech-tests",
+  "version": "1.0.0",
+  "description": "Challenge for SI",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && wdio ./build/wdio.conf.js",
+    "build": "babel ./test -d ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlopes/si-ptech-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlopes/si-ptech-tests/issues"
+  },
+  "homepage": "https://github.com/hlopes/si-ptech-tests#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "chai": "^3.5.0",
+    "wdio-jasmine-framework": "^0.2.19",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-spec-reporter": "0.0.5",
+    "webdriverio": "^4.4.0"
+  }
+}
