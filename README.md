@@ -1,7 +1,7 @@
 # si-ptech-tests
 Challenge for SI class
 
-Full Name:
+Full Name: Hugo Lopes
 
-Student Nbr:
+Student Nbr: test_000
 

@@ -11,5 +11,12 @@ describe('[CHECK TITLE]', () => {
         expect(HomePage.getTitle()).to.equal('Present Technologies');
     });
 
+    it('should stay on homepage after refresh browser (DUMMY TEST)', () => {
+
+        HomePage.refresh();
+
+        expect(HomePage.getTitle()).to.equal('Present Technologies');
+    });
+
     //TODO
 });
